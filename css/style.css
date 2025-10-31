@@ -1,0 +1,245 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=M+PLUS+1:wght@100..900&family=Momo+Trust+Display&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Zen+Kaku+Gothic+New&display=swap');
+
+.haikei {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    top: 0px;
+    z-index: 0;
+    background-image: linear-gradient( #01011a,#002d7f);
+}
+
+.ikisaki {
+    position: relative;
+    text-align: center;
+    top:5vh;
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 1.7;
+    color: #fff;
+}
+
+
+/*--------------------------------------
+  カード型_02
+--------------------------------------*/
+.l-wrapper_02 {
+  margin: 1rem auto;
+  width: 90vw;
+  height: 75vh;
+  position: relative;
+  top:8vh
+}
+.card-radius_02{
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,.2);
+}
+
+.card_02 {
+  background-color: #fff;
+  box-shadow: 0 0 0px rgba(0, 0, 0, .16);
+  color: #212121;
+  text-decoration: none;
+}
+
+p.rogo img {
+    position: relative;
+    width: 80vw;
+    left:5vw;
+    top: 2vh;
+    max-height: 130px;
+}
+
+.card__header_02 {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 3px dotted #6f7b87;
+  height: 25vh;
+}
+
+.card__header_02 h6 {
+    font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  padding-left: 20px;
+  position: relative;
+  top: 1vh;
+  color: #376bcb;
+}
+
+.card__header_02 h2 {
+    font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  position: relative;
+  left: -75px;
+  color: #000000;
+}
+
+.migi {
+margin: 0 0 0 auto;
+    text-align: right;
+    position: relative;
+    padding-right:20px ;
+}
+
+.migi h5 {
+    font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  position: relative;
+  top: 1vh;
+  color: #376bcb;
+}
+
+.migi h3 {
+    font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  position: relative;
+  top: -12px;
+  color: #000000;
+}
+
+.card__title_02 {
+  padding: 1rem 1.5rem 0;
+  font-size: 1.6rem;
+  order: 1;
+  font-weight: bold;
+  text-decoration: none;
+  /*線の種類（実線） 太さ 色*/
+  border-bottom: solid 3px black;
+
+}
+
+.card__thumbnail_02 {
+  margin: 0;
+  order: 0;
+}
+
+.card__image_02 {
+  width: 100%;
+}
+
+.card__body_02 {
+  padding: 0 1.5rem;
+  position: relative;
+  top: 0vh;
+  background-image: linear-gradient(#fff,#bfbcd5);
+  height: 70vh;
+
+}
+
+.card__body_02 h6 {
+    font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+
+  position: relative;
+  top: 1vh;
+  color: #376bcb;
+}
+
+.card__body_02 h2 {
+    font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 33px;
+  position: relative;
+  color: #000000;
+  top: -30px
+}
+
+.sitamigi {
+margin: 0 0 0 auto;
+    text-align: right;
+    position: relative;
+    padding-right:0px ;
+    top:-90px;
+}
+
+.sitamigi h5 {
+    font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  position: relative;
+  top: 1vh;
+  color: #376bcb;
+}
+
+.sitamigi h3 {
+    font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 33px;
+  position: relative;
+  top: -30px;
+  color: #000000;
+}
+
+p.yazirusi img {
+    position: relative;
+    width: 20vw;
+    left:37vw;
+    top: -19vh;
+    max-height: 30px;
+    max-width: 140px;
+}
+
+.card__body_02 h4 {
+    font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+
+  position: relative;
+  color: #376bcb;
+  top: -120px;
+}
+
+.card__body_02 h1 {
+    font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  position: relative;
+  color: #000000;
+  top: -140px
+
+}
+
+p.bar img {
+    position: relative;
+    
+    width: 80vw;
+    max-height: 100px;
+    left:4vw;
+    bottom: 10vh;
+}
+
+
+.card__text_02 {
+  font-size: .8rem;
+  text-align:center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.card__text2_02 {
+  font-size: .8rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  position: relative;
+  color: #fff;
+  
+}
